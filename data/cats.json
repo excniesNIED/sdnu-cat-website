@@ -1,0 +1,78 @@
+[
+    {
+        "name": "大橘",
+        "avatar": "images/orange_cat.jpg",
+        "gender": "公",
+        "color": "橘色",
+        "neutered": true,
+        "description": "大橘是我们校园最亲人的猫咪之一，特别喜欢蹭路过同学的腿。已经绝育，身体健康，喜欢在图书馆门口晒太阳。",
+        "photos": [
+            "images/orange_cat1.jpg",
+            "images/orange_cat2.jpg",
+            "images/orange_cat3.jpg"
+        ]
+    },
+    {
+        "name": "小白",
+        "avatar": "images/white_cat.jpg",
+        "gender": "母",
+        "color": "白色",
+        "neutered": true,
+        "description": "小白性格温顺，喜欢安静的环境，常在文学院附近活动。已经绝育并接种疫苗，是校园里的小公主。",
+        "photos": [
+            "images/white_cat1.jpg",
+            "images/white_cat2.jpg"
+        ]
+    },
+    {
+        "name": "黑炭",
+        "avatar": "images/black_cat.jpg",
+        "gender": "公",
+        "color": "黑色",
+        "neutered": false,
+        "description": "黑炭是校园里的夜行侠，白天很少见到它。性格独立但熟悉后会非常粘人，目前还未绝育。",
+        "photos": [
+            "images/black_cat1.jpg",
+            "images/black_cat2.jpg",
+            "images/black_cat3.jpg",
+            "images/black_cat4.jpg"
+        ]
+    },
+    {
+        "name": "花花",
+        "avatar": "images/calico_cat.jpg",
+        "gender": "母",
+        "color": "三花",
+        "neutered": true,
+        "description": "花花是校园里的明星猫，毛色漂亮性格又好。已经绝育，喜欢在食堂附近等待同学们的投喂。",
+        "photos": [
+            "images/calico_cat1.jpg",
+            "images/calico_cat2.jpg"
+        ]
+    },
+    {
+        "name": "虎子",
+        "avatar": "images/tabby_cat.jpg",
+        "gender": "公",
+        "color": "狸花",
+        "neutered": true,
+        "description": "虎子有着漂亮的狸花纹路，性格活泼好动，喜欢在操场上追蝴蝶。已经绝育，是运动场的小卫士。",
+        "photos": [
+            "images/tabby_cat1.jpg",
+            "images/tabby_cat2.jpg",
+            "images/tabby_cat3.jpg"
+        ]
+    },
+    {
+        "name": "牛奶",
+        "avatar": "images/cow_cat.jpg",
+        "gender": "母",
+        "color": "奶牛",
+        "neutered": false,
+        "description": "牛奶因为毛色像奶牛而得名，性格胆小害羞，需要耐心接近。目前还未绝育，我们正在筹款准备带它去绝育。",
+        "photos": [
+            "images/cow_cat1.jpg",
+            "images/cow_cat2.jpg"
+        ]
+    }
+]

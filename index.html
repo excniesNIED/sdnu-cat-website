@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山师里的流浪天使</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🐱 山师里的流浪天使 🐱</h1>
+            <p>关爱校园流浪猫，用爱终止流浪</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">领养指南</a></li>
+                <li><a href="#">捐助支持</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="filter-section">
+            <h2>🐾 我们的猫猫 🐾</h2>
+            <div class="filter-options">
+                <label for="color-filter">按花色筛选：</label>
+                <select id="color-filter">
+                    <option value="all">全部</option>
+                    <option value="橘色">橘色</option>
+                    <option value="白色">白色</option>
+                    <option value="黑色">黑色</option>
+                    <option value="三花">三花</option>
+                    <option value="狸花">狸花</option>
+                    <option value="奶牛">奶牛</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="cats-grid" id="cats-container">
+            <!-- 猫猫卡片将通过JavaScript动态加载 -->
+        </section>
+
+        <section class="cat-modal" id="cat-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <img id="modal-avatar" src="" alt="猫猫头像">
+                    <div>
+                        <h2 id="modal-name"></h2>
+                        <p id="modal-gender"></p>
+                        <p id="modal-color"></p>
+                        <p id="modal-neutered"></p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-description"></p>
+                    <div class="gallery" id="modal-gallery">
+                        <!-- 图片将通过JavaScript动态加载 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 山师猫协 - 山师里的流浪天使</p>
+            <p>联系我们：example@sdnu.edu.cn</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
